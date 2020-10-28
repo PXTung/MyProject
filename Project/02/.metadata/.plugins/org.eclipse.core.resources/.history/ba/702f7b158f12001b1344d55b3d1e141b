@@ -1,0 +1,5 @@
+package com.springmvc.dto;
+
+public class UserDTO {
+
+}

@@ -1,0 +1,64 @@
+package com.springmvc.service.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springmvc.convert.UserConvert;
+import com.springmvc.dto.UserDTO;
+import com.springmvc.entity.RoleEntity;
+import com.springmvc.entity.UserEntity;
+import com.springmvc.repository.IRoleRepository;
+import com.springmvc.repository.IUserRepository;
+import com.springmvc.service.IUserService;
+
+@Service
+public class UserService implements IUserService{
+
+	@Autowired
+	private IUserRepository userRepository;
+	
+	@Autowired
+	private IRoleRepository roleRepository;
+	
+	@Autowired
+	private UserConvert userConvert;
+	
+	@Override
+	public UserDTO save(UserDTO dto) {
+		UserEntity entity = new UserEntity();
+		if(dto.getId() != null) {
+			entity = userRepository.findOne(dto.getId());
+			entity = userConvert.toEntity(entity, dto);
+		}else {
+			entity = userConvert.toEntity(dto);
+		}
+		RoleEntity role = roleRepository.findOneByCode(dto.getRoleCode());
+		entity.setRole(role);
+		entity = userRepository.save(entity);
+		dto = userConvert.toDto(entity);
+		return dto;
+	}
+
+	@Override
+	public UserDTO findOne(Long id) {
+		UserEntity entity = userRepository.findOne(id);
+		return userConvert.toDto(entity);
+	}
+
+	@Override
+	public void delete(Long id) {
+		userRepository.delete(id);
+	}
+
+	@Override
+	public List<UserDTO> findAll() {
+		List<UserDTO> uers = new ArrayList<UserDTO>();
+		List<UserEntity> entities = userRepository.findAll();
+		for()
+		return null;
+	}
+	
+}

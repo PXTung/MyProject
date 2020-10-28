@@ -1,0 +1,8 @@
+1601531347660	Move 'dispatcher-servlet.xml' to 'WEB-INF'
+1601531545245	Move 'dispatcher-servlet.xml' to 'context'
+1601532898273	Delete element
+1601533970138	Move 'dispatcher-servlet.xml' to 'WEB-INF'
+1601534359556	Delete element
+1601535185440	Delete element
+1601536009686	Move 'home.jsp' to 'views'
+1601536185582	Move 'home.jsp' to 'web'

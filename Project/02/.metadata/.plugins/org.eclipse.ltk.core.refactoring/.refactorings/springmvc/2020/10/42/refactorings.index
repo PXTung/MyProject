@@ -1,0 +1,33 @@
+1602398435111	Delete element
+1602398739390	Delete elements
+1602398797216	Delete element
+1602398812479	Delete elements
+1602400601188	Move 'common' to 'WEB-INF'
+1602403529215	Move 'decorators' to 'webapp'
+1602403632007	Move 'common' to 'webapp'
+1602406621999	Delete element
+1602408491705	Delete element
+1602408496279	Delete element
+1602408535982	Delete element
+1602408546270	Delete element
+1602408787043	Delete element
+1602408813770	Delete element
+1602408852463	Delete element
+1602408873089	Delete element
+1602475961688	Rename type 'NewController'
+1602478048081	Delete element
+1602478055716	Delete element
+1602482443122	Delete element
+1602488336750	Delete element
+1602497195399	Copy compilation unit
+1602497205290	Delete element
+1602497211702	Copy compilation unit
+1602497226598	Rename type 'AbstractModel'
+1602505702868	Encapsulate field 'fullName'
+1602567497913	Rename type 'INewRepository'
+1602572846887	Encapsulate field 'categoryCode'
+1602574640121	Delete element
+1602574699567	Delete element
+1602574945698	Delete element
+1602586555341	Encapsulate field 'limit'
+1602661727528	Move 'ckeditor' to 'webapp'

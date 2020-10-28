@@ -1,0 +1,37 @@
+package com.springmvc.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springmvc.dto.UserDTO;
+import com.springmvc.service.IUserService;
+
+@RestController
+public class UserAPI {
+	
+	@Autowired
+	private IUserService userService;
+	
+	@PostMapping("/api/admin/user")
+	public UserDTO save(@RequestBody UserDTO dto) {
+		return userService.save(dto);
+	}
+	
+	@GetMapping("/api/admin/user")
+	public UserDTO save(@RequestBody Long id) {
+		if(id == null) {
+			return null;
+		}else {
+			return userService.findOne(id);
+		}
+	}
+	
+	@PutMapping("/api/admin/user")
+	public UserDTO update(@RequestBody UserDTO dto) {
+		return userService.save(dto);
+	}
+}

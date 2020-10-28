@@ -1,0 +1,8 @@
+package com.springmvc.service.impl;
+
+import com.springmvc.service.IUserService;
+
+@Service
+public class UserService implements IUserService{
+	
+}

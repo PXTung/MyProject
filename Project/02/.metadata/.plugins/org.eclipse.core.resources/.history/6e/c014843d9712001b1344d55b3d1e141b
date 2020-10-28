@@ -1,0 +1,34 @@
+package com.springmvc.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.springmvc.convert.UserConvert;
+import com.springmvc.dto.UserDTO;
+import com.springmvc.entity.UserEntity;
+import com.springmvc.repository.IRoleRepository;
+import com.springmvc.repository.IUserRepository;
+import com.springmvc.service.IUserService;
+
+@Service
+public class UserService implements IUserService{
+
+	@Autowired
+	private IUserRepository userRepository;
+	
+	@Autowired
+	private IRoleRepository roleRepository;
+	
+	@Autowired
+	private UserConvert userConvert;
+	
+	@Override
+	public UserDTO save(UserDTO dto) {
+		UserEntity entity = userConvert.toEntity(dto);
+		Role role = roleRepository.findOneByCode()
+		entity.setRole(role);
+		userRepository.save(entity);
+		return null;
+	}
+	
+}

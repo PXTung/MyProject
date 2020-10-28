@@ -1,0 +1,19 @@
+1603078202335	Delete element
+1603078527419	Move 'common' to 'webapp'
+1603081067217	Move 'index.jsp' to 'WEB-INF'
+1603081141602	Move 'index.jsp' to 'webapp'
+1603081248833	Move 'context' to 'WEB-INF'
+1603086974196	Rename type 'customSuccessHandler'
+1603087192025	Delete element
+1603087198258	Delete element
+1603089971029	Delete element
+1603091541419	Delete element
+1603092092517	Delete element
+1603096321614	Encapsulate field 'list'
+1603097556661	Rename type 'RoleCovert'
+1603103003472	Delete element
+1603106930644	Encapsulate field 'fullName'
+1603116457368	Encapsulate field 'id'
+1603171628886	Move compilation unit
+1603171812855	Rename type 'UserServie'
+1603177110457	Encapsulate field 'listResult'

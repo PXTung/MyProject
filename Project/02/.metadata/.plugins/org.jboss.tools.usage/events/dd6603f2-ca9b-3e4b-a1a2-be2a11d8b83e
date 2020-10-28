@@ -1,0 +1,11 @@
+#Wed Oct 28 11:33:56 ICT 2020
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1603859635965
+c=0
+cmp=usage
+a=finishWizard
+cl=org.jboss.tools.common.model.ui.wizard.newfile.NewPropertiesFileWizard
+v=2.2.300
+s=0

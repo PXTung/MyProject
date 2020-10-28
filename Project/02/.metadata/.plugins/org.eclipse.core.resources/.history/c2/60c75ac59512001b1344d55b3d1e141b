@@ -1,0 +1,13 @@
+package com.springmvc.api;
+
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springmvc.dto.UserDTO;
+
+@RestController
+public class UserAPI {
+	public UserDTO save(@ResponseBody UserDTO dto) {
+		return null;
+	}
+}

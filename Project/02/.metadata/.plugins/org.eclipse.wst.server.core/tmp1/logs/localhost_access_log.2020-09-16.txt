@@ -1,0 +1,7 @@
+127.0.0.1 - - [16/Sep/2020:23:16:20 +0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:22 +0700] "GET /bookstore/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:24 +0700] "GET /bookstore/home HTTP/1.1" 200 7820
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:24 +0700] "GET /bookstore/template/web/bootstrap/css/bootstrap.min.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:24 +0700] "GET /bookstore/template/web/css/shop-homepage.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:24 +0700] "GET /bookstore/template/web/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Sep/2020:23:16:24 +0700] "GET /bookstore/template/web/jquery/jquery.min.js HTTP/1.1" 304 -

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\18. SPRING MVC"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\17. SPRING MVC"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\16. SPRINGBOOT"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\15. SPRING"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\13. Document"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\12. Test"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\12. BookManagement"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\11. Test\test02"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\11. Test"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\11. BookManagement"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\10. Sum"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\09. Login"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\08. JSPSERVLET\src\main\webapp\views\login.jsp"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\08. JSPSERVLET"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\07. Ajax"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="springmvc"/>
+			<item value="springboot"/>
+			<item value="document"/>
+			<item value="test"/>
+			<item value="library"/>
+			<item value="json"/>
+			<item value="SpringReturnList"/>
+			<item value="bookmanagement"/>
+			<item value="sum"/>
+			<item value="login"/>
+			<item value="jspservlet"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="springmvc"/>
+			<item value="springboot"/>
+			<item value="document"/>
+			<item value="test"/>
+			<item value="library"/>
+			<item value="json"/>
+			<item value="SpringReturnList"/>
+			<item value="bookmanagement"/>
+			<item value="sum"/>
+			<item value="login"/>
+			<item value="book"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\11. Down\Response\SpringMVCReturnJSON"/>
+			<item value="C:\Users\phamx\Desktop\JavaWeb\Project\11. Down\SpringRetrunList"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

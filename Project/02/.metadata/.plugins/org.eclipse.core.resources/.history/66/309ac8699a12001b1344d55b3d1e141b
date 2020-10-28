@@ -1,0 +1,28 @@
+package com.springmvc.convert;
+
+import org.springframework.stereotype.Component;
+
+import com.springmvc.dto.UserDTO;
+import com.springmvc.entity.UserEntity;
+
+@Component
+public class UserConvert {
+	public UserDTO toDto(UserEntity entity) {
+		UserDTO dto = new UserDTO();
+		dto.setFullName(entity.getFullName());
+		dto.setPassword(entity.getPassword());
+		dto.setStatus(entity.getStatus());
+		dto.setRoleCode(entity.getRole().getCode());
+		
+		return dto;
+	}
+	
+	public UserEntity toEntity(UserDTO dto) {
+		UserEntity entity = new UserEntity();
+		entity.setFullName(dto.getFullName());
+		entity.setPassword(dto.getPassword());
+		entity.setStatus(dto.getStatus());
+		
+		return entity;
+	}
+}

@@ -1,0 +1,5 @@
+package com.servlet.service.impl;
+
+public class NewService {
+
+}

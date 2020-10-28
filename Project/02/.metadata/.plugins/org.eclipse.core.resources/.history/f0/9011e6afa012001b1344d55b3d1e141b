@@ -1,0 +1,6 @@
+package com.springmvc.controller.admin;
+
+@Controller
+public class UserController {
+
+}

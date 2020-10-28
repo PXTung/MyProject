@@ -1,0 +1,3 @@
+com\bookmanagement\model\Person.class
+com\bookmanagement\model\Reader.class
+com\bookmanagement\controller\HomeController.class

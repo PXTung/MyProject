@@ -1,0 +1,7 @@
+1600341274813	Rename package 'com.book.DAO'
+1600341774294	Rename package 'com.book.dao.IMPL'
+1600342422130	Rename type 'User'
+1600343554080	Rename compilation unit 'UserDAO.java'
+1600343587180	Rename type 'IUserDAO'
+1600343619467	Rename type 'IUserService'
+1600354212145	Rename type 'RowMapper'

@@ -1,0 +1,6 @@
+package com.springmvc.entity;
+
+public class RoleEntity extends BaseEntity{
+	private String role;
+	private String code;
+}

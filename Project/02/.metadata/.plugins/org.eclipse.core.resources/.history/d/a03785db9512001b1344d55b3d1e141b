@@ -1,0 +1,15 @@
+package com.springmvc.api;
+
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springmvc.dto.UserDTO;
+
+@RestController
+public class UserAPI {
+	@PostMapping(value="/api/admin/user")
+	public UserDTO save(@RequestBody UserDTO dto) {
+		return null;
+	}
+}

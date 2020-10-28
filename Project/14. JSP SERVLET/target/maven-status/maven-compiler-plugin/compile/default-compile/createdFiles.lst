@@ -1,0 +1,16 @@
+com\servlet\model\AbstractModel.class
+com\servlet\model\CommentModel.class
+com\servlet\service\INewService.class
+com\servlet\dao\INewDAO.class
+com\servlet\controller\web\HomeController.class
+com\servlet\service\impl\NewService.class
+com\servlet\model\RoleModel.class
+com\servlet\model\UserModel.class
+com\servlet\dao\impl\CategoryDAO.class
+com\servlet\model\NewModel.class
+com\servlet\dao\ICategoryDAO.class
+com\servlet\service\ICategoryService.class
+com\servlet\model\CategoryModel.class
+com\servlet\service\impl\CategoryService.class
+com\servlet\controller\admin\HomeController.class
+com\servlet\dao\impl\NewDAO.class

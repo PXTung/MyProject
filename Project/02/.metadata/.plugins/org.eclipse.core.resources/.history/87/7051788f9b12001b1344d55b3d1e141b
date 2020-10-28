@@ -1,0 +1,21 @@
+package com.springmvc.api;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springmvc.dto.UserDTO;
+import com.springmvc.service.IUserService;
+
+@RestController
+public class UserAPI {
+	
+	@Autowired
+	private IUserService userService;
+	
+	@PostMapping("/api/admin/user")
+	public UserDTO save(@RequestBody UserDTO dto) {
+		return userService.save(dto);
+	}
+}

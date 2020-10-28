@@ -1,0 +1,5 @@
+package com.springmvc.service.impl;
+
+public class UserService {
+
+}
